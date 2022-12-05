@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="ReversedLinkedList">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2.java" afterDir="false" />
+    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="Enqueue and dequeue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Программирование/JAVA_GEEK_BRAINS/Знакомство с java/java_homework/Seminar_2/Seminar_2_homework/Calculator"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.task2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670227721415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enqueue and dequeue">
+      <created>1670242561890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670242561890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReversedLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReversedLinkedList" />
+    <MESSAGE value="Enqueue and dequeue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enqueue and dequeue" />
   </component>
 </project>
