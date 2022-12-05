@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-05T15:31:47.086484900Z</date>
+  <millis>1670254307086</millis>
+  <nanos>484900</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Начало работы калькулятора</message>
+</record>
+<record>
+  <date>2022-12-05T15:31:51.248923600Z</date>
+  <millis>1670254311248</millis>
+  <nanos>923600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию сложение</message>
+</record>
+<record>
+  <date>2022-12-05T15:31:52.894908100Z</date>
+  <millis>1670254312894</millis>
+  <nanos>908100</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию сложение с новыми числами</message>
+</record>
+<record>
+  <date>2022-12-05T15:31:55.819753600Z</date>
+  <millis>1670254315819</millis>
+  <nanos>753600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>пользователь ввел dgdfg и fgdg</message>
+</record>
+</log>

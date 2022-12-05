@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="Добавил исходный код калькулятора">
+    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="Добавил стэк">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator.java" afterDir="false" />
     </list>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670243547077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил стэк">
+      <created>1670248135060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670248135060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +146,7 @@
     <MESSAGE value="ReversedLinkedList" />
     <MESSAGE value="Enqueue and dequeue" />
     <MESSAGE value="Добавил исходный код калькулятора" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил исходный код калькулятора" />
+    <MESSAGE value="Добавил стэк" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил стэк" />
   </component>
 </project>
