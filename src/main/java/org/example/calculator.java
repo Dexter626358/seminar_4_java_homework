@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Stack;
 import java.util.logging.Logger;
 import java.util.logging.FileHandler;
 import java.util.logging.XMLFormatter;
@@ -13,6 +14,7 @@ public class calculator {
         calculatorDouble();
     }
     public static String calculatorDouble() throws IOException {
+        Stack<Double> resultStack = new Stack<>();
         Logger logger = Logger.getLogger(Main.class.getName());
         FileHandler fh = new FileHandler("calclogger.xml");
         logger.addHandler(fh);
@@ -22,7 +24,7 @@ public class calculator {
         logger.info("Начало работы калькулятора");
         while (flag){
             System.out.println("Калькулятор умеет делать простые операции над числами");
-            System.out.println("Введите операцию:\n 1. Сложение.\n 2. Вычитание.\n 3. Умножение.\n 4. Деление.\n 5. Выход.");
+            System.out.println("Введите операцию:\n 1. Сложение.\n 2. Вычитание.\n 3. Умножение.\n 4. Деление.\n 5. Выход\n 6. Вывести стэк.");
             Scanner scan = new Scanner(System.in);
             String operation = scan.next();
             switch (operation) {
@@ -35,6 +37,7 @@ public class calculator {
                     double a = Double.parseDouble(num1);
                     double b = Double.parseDouble(num2);
                     System.out.println(a + " + " + b + " = " + (a + b));
+                    resultStack.add(a + b);
                     logger.info(String.format("Результат сложения %s и %s равено %f", num1, num2, a + b));
 
                 }
@@ -47,6 +50,7 @@ public class calculator {
                     double a = Double.parseDouble(num1);
                     double b = Double.parseDouble(num2);
                     System.out.println(a + " - " + b + " = " + (a - b));
+                    resultStack.add(a - b);
                     logger.info(String.format("Результат вычитпния %s и %s равено %f", num1, num2, a - b));
 
                 }
@@ -59,6 +63,7 @@ public class calculator {
                     double a = Double.parseDouble(num1);
                     double b = Double.parseDouble(num2);
                     System.out.println(a + " * " + b + " = " + (a * b));
+                    resultStack.add(a * b);
                     logger.info(String.format("Результат умножения %s и %s равено %f", num1, num2, a * b));
 
                 }
@@ -72,6 +77,7 @@ public class calculator {
                     double b = Double.parseDouble(num2);
                     if (b != 0) {
                         System.out.println(a + " / " + b + " = " + (a / b));
+                        resultStack.add(a / b);
                         logger.info(String.format("Результат деления %s и %s равено %f", num1, num2, a / b));
                     } else {
                         System.out.println("Деление на ноль");
@@ -82,6 +88,9 @@ public class calculator {
                 case "5" -> {
                     flag = false;
                     logger.info("Выход из программы");
+                }
+                case "6" -> {
+                    System.out.println(resultStack);
                 }
                 default -> {
                     System.out.println("Некорректный ввод");
