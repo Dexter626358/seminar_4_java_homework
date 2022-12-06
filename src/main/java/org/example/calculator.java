@@ -37,24 +37,30 @@ public class calculator {
                         String[] data = inp_numbers();
                         String num1 = data[0];
                         String num2 = data[1];
-                        logger.info(String.format("пользователь ввел %s и %s", num1, num2));
-                        double a = Double.parseDouble(num1);
-                        double b = Double.parseDouble(num2);
-                        System.out.println(a + " + " + b + " = " + (a + b));
-                        resultStack.add(a + b);
-                        logger.info(String.format("Результат сложения %s и %s равено %f", num1, num2, a + b));
-
-
+                        if(checkNumber(num1) && checkNumber(num2)){
+                            double a = Double.parseDouble(num1);
+                            double b = Double.parseDouble(num2);
+                            logger.info(String.format("пользователь ввел %s и %s", num1, num2));
+                            System.out.println(a + " + " + b + " = " + (a + b));
+                            resultStack.add(a + b);
+                            logger.info(String.format("Результат сложения %s и %s равено %f", num1, num2, a + b));
+                        }else{
+                            System.out.println("Вы ввели не числа");
+                        }
                     } else if (typeOperation.equals("2")) {
                         logger.info("Пользователь выбрал операцию сложение с предыдущим результатом");
                         System.out.println("Введите число: ");
                         String num = scan.next();
-                        double c = Double.parseDouble(num);
-                        logger.info(String.format("Пользователь ввел %f", c));
-                        Double lastStack = resultStack.lastElement();
-                        System.out.println(c + " + " + lastStack + " = " + (c + lastStack));
-                        logger.info(String.format("Результат сложения %f и %f равено %f", c, lastStack, c + lastStack));
-                        resultStack.add(c + lastStack);
+                        if (checkNumber(num)){
+                            double c = Double.parseDouble(num);
+                            logger.info(String.format("Пользователь ввел %f", c));
+                            Double lastStack = resultStack.lastElement();
+                            System.out.println(c + " + " + lastStack + " = " + (c + lastStack));
+                            logger.info(String.format("Результат сложения %f и %f равено %f", c, lastStack, c + lastStack));
+                            resultStack.add(c + lastStack);
+                        }else{
+                            System.out.println("Вы ввели не число");
+                        }
                     } else if (typeOperation.equals("3")) {
                         if(!resultStack.isEmpty()){
                             Double removeLastElement = resultStack.pop();
@@ -80,24 +86,30 @@ public class calculator {
                         String[] data = inp_numbers();
                         String num1 = data[0];
                         String num2 = data[1];
-                        logger.info(String.format("пользователь ввел %s и %s", num1, num2));
-                        double a = Double.parseDouble(num1);
-                        double b = Double.parseDouble(num2);
-                        System.out.println(a + " - " + b + " = " + (a - b));
-                        resultStack.add(a - b);
-                        logger.info(String.format("Результат вычитания %s и %s равено %f", num1, num2, a - b));
-
-
+                        if(checkNumber(num1) && checkNumber(num2)){
+                            double a = Double.parseDouble(num1);
+                            double b = Double.parseDouble(num2);
+                            logger.info(String.format("пользователь ввел %s и %s", num1, num2));
+                            System.out.println(a + " - " + b + " = " + (a - b));
+                            resultStack.add(a - b);
+                            logger.info(String.format("Результат вычитания %s и %s равено %f", num1, num2, a - b));
+                        }else {
+                            System.out.println("Вы ввели не числа");
+                        }
                     } else if (typeOperation.equals("2")) {
                         logger.info("Пользователь выбрал операцию вычитание из предыдущего результата");
                         System.out.println("Введите число: ");
                         String num = scan.next();
-                        double c = Double.parseDouble(num);
-                        logger.info(String.format("Пользователь ввел %f", c));
-                        Double lastStack = resultStack.lastElement();
-                        System.out.println(lastStack + " - " + c + " = " + (lastStack - c));
-                        logger.info(String.format("Результат вычитания %f из %f равено %f", lastStack, c, lastStack - c));
-                        resultStack.add(lastStack - c);
+                        if(checkNumber(num)){
+                            double c = Double.parseDouble(num);
+                            logger.info(String.format("Пользователь ввел %f", c));
+                            Double lastStack = resultStack.lastElement();
+                            System.out.println(lastStack + " - " + c + " = " + (lastStack - c));
+                            logger.info(String.format("Результат вычитания %f из %f равено %f", lastStack, c, lastStack - c));
+                            resultStack.add(lastStack - c);
+                        }else {
+                            System.out.println("Вы ввели не число");
+                        }
                     } else if (typeOperation.equals("3")) {
                         if(!resultStack.isEmpty()){
                             Double removeLastElement = resultStack.pop();
@@ -123,24 +135,30 @@ public class calculator {
                         String[] data = inp_numbers();
                         String num1 = data[0];
                         String num2 = data[1];
-                        logger.info(String.format("пользователь ввел %s и %s", num1, num2));
-                        double a = Double.parseDouble(num1);
-                        double b = Double.parseDouble(num2);
-                        System.out.println(a + " * " + b + " = " + (a * b));
-                        resultStack.add(a * b);
-                        logger.info(String.format("Результат умножения %s и %s равено %f", num1, num2, a * b));
-
-
+                        if (checkNumber(num1) && checkNumber(num2)){
+                            double a = Double.parseDouble(num1);
+                            double b = Double.parseDouble(num2);
+                            logger.info(String.format("пользователь ввел %s и %s", num1, num2));
+                            System.out.println(a + " * " + b + " = " + (a * b));
+                            resultStack.add(a * b);
+                            logger.info(String.format("Результат умножения %s и %s равено %f", num1, num2, a * b));
+                        }else {
+                            System.out.println("Вы ввели не числа");
+                        }
                     } else if (typeOperation.equals("2")) {
                         logger.info("Пользователь выбрал операцию умножения на предыдущий результат");
                         System.out.println("Введите число: ");
                         String num = scan.next();
-                        double c = Double.parseDouble(num);
-                        logger.info(String.format("Пользователь ввел %f", c));
-                        Double lastStack = resultStack.lastElement();
-                        System.out.println(c + " * " + lastStack + " = " + (c * lastStack));
-                        logger.info(String.format("Результат умножения %f и %f равено %f", c, lastStack, c * lastStack));
-                        resultStack.add(c * lastStack);
+                        if (checkNumber(num)){
+                            double c = Double.parseDouble(num);
+                            logger.info(String.format("Пользователь ввел %f", c));
+                            Double lastStack = resultStack.lastElement();
+                            System.out.println(c + " * " + lastStack + " = " + (c * lastStack));
+                            logger.info(String.format("Результат умножения %f и %f равено %f", c, lastStack, c * lastStack));
+                            resultStack.add(c * lastStack);
+                        }else{
+                            System.out.println("Вы ввели не число");
+                        }
                     } else if (typeOperation.equals("3")) {
                         if(!resultStack.isEmpty()){
                             Double removeLastElement = resultStack.pop();
@@ -166,34 +184,40 @@ public class calculator {
                         String[] data = inp_numbers();
                         String num1 = data[0];
                         String num2 = data[1];
-                        logger.info(String.format("пользователь ввел %s и %s", num1, num2));
-                        double a = Double.parseDouble(num1);
-                        double b = Double.parseDouble(num2);
-                        if(!(b == 0)){
-                            System.out.println(a + " / " + b + " = " + (a / b));
-                            resultStack.add(a / b);
-                            logger.info(String.format("Результат деления %s и %s равено %f", num1, num2, a / b));
+                        if(checkNumber(num1) && checkNumber(num2)){
+                            double a = Double.parseDouble(num1);
+                            double b = Double.parseDouble(num2);
+                            logger.info(String.format("пользователь ввел %s и %s", num1, num2));
+                            if(!(b == 0)){
+                                System.out.println(a + " / " + b + " = " + (a / b));
+                                resultStack.add(a / b);
+                                logger.info(String.format("Результат деления %s и %s равено %f", num1, num2, a / b));
+                            } else {
+                                System.out.println("Деление на ноль");
+                                logger.info("Деление на ноль");
+                            }
                         } else {
-                            System.out.println("Деление на ноль");
-                            logger.info("Деление на ноль");
-
-                        }
-
+                                System.out.println("Вы ввели не числа");
+                            }
                     } else if (typeOperation.equals("2")) {
                         logger.info("Пользователь выбрал операцию деления предыдущего результата");
                         System.out.println("Введите число: ");
                         String num = scan.next();
-                        double c = Double.parseDouble(num);
-                        if (!(c==0)){
-                            logger.info(String.format("Пользователь ввел %f", c));
-                            Double lastStack = resultStack.lastElement();
-                            System.out.println(lastStack + " / " + c + " = " + (lastStack / c));
-                            logger.info(String.format("Результат умножения %f и %f равено %f", lastStack, c, lastStack / c));
-                            resultStack.add(lastStack / c);
+                        if (checkNumber(num)){
+                            double c = Double.parseDouble(num);
+                            if (!(c==0)){
+                                logger.info(String.format("Пользователь ввел %f", c));
+                                Double lastStack = resultStack.lastElement();
+                                System.out.println(lastStack + " / " + c + " = " + (lastStack / c));
+                                logger.info(String.format("Результат умножения %f и %f равено %f", lastStack, c, lastStack / c));
+                                resultStack.add(lastStack / c);
+                            }else {
+                                System.out.println("Деление на ноль");
+                                logger.info("Деление на ноль");
+                            }
                         }else{
-                            System.out.println("Деление на ноль");
-                            logger.info("Деление на ноль");
-                        }
+                                System.out.println("Вы ввели не число");
+                            }
                     } else if (typeOperation.equals("3")) {
                         if(!resultStack.isEmpty()){
                             Double removeLastElement = resultStack.pop();
@@ -233,5 +257,14 @@ public class calculator {
         System.out.println("Введите числа через пробел");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         return reader.readLine().split(" ");
+    }
+
+    public static boolean checkNumber(String inputData){
+        if (inputData.matches("^[0-9]+$") || inputData.matches("\\d+\\.\\d+")){
+            return true;
+        }else{
+            return false;
+        }
+
     }
 }

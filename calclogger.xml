@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-12-05T15:31:47.086484900Z</date>
-  <millis>1670254307086</millis>
-  <nanos>484900</nanos>
+  <date>2022-12-06T12:06:50.639398900Z</date>
+  <millis>1670328410639</millis>
+  <nanos>398900</nanos>
   <sequence>0</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Начало работы калькулятора</message>
 </record>
 <record>
-  <date>2022-12-05T15:31:51.248923600Z</date>
-  <millis>1670254311248</millis>
-  <nanos>923600</nanos>
+  <date>2022-12-06T12:06:57.599008700Z</date>
+  <millis>1670328417599</millis>
+  <nanos>8700</nanos>
   <sequence>1</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Пользователь выбрал операцию сложение</message>
 </record>
 <record>
-  <date>2022-12-05T15:31:52.894908100Z</date>
-  <millis>1670254312894</millis>
-  <nanos>908100</nanos>
+  <date>2022-12-06T12:06:58.720319300Z</date>
+  <millis>1670328418720</millis>
+  <nanos>319300</nanos>
   <sequence>2</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -38,15 +38,279 @@
   <message>Пользователь выбрал операцию сложение с новыми числами</message>
 </record>
 <record>
-  <date>2022-12-05T15:31:55.819753600Z</date>
-  <millis>1670254315819</millis>
-  <nanos>753600</nanos>
+  <date>2022-12-06T12:07:00.913307800Z</date>
+  <millis>1670328420913</millis>
+  <nanos>307800</nanos>
   <sequence>3</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.calculator</class>
   <method>calculatorDouble</method>
   <thread>1</thread>
-  <message>пользователь ввел dgdfg и fgdg</message>
+  <message>пользователь ввел 3 и 4</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:00.982271500Z</date>
+  <millis>1670328420982</millis>
+  <nanos>271500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Результат сложения 3 и 4 равено 7,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:04.344535400Z</date>
+  <millis>1670328424344</millis>
+  <nanos>535400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию сложение</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:05.570021100Z</date>
+  <millis>1670328425570</millis>
+  <nanos>21100</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию сложение с новыми числами</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:08.389551700Z</date>
+  <millis>1670328428389</millis>
+  <nanos>551700</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>пользователь ввел 34 и 56</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:08.394548800Z</date>
+  <millis>1670328428394</millis>
+  <nanos>548800</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Результат сложения 34 и 56 равено 90,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:12.924717400Z</date>
+  <millis>1670328432924</millis>
+  <nanos>717400</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию вычитание</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:14.151783400Z</date>
+  <millis>1670328434151</millis>
+  <nanos>783400</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию сложение с новыми числами</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:16.832692900Z</date>
+  <millis>1670328436832</millis>
+  <nanos>692900</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>пользователь ввел 56 и 78</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:16.840687900Z</date>
+  <millis>1670328436840</millis>
+  <nanos>687900</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Результат вычитания 56 и 78 равено -22,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:20.061446800Z</date>
+  <millis>1670328440061</millis>
+  <nanos>446800</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию вычитание</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:22.002389600Z</date>
+  <millis>1670328442002</millis>
+  <nanos>389600</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию вычитание из предыдущего результата</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:24.115811700Z</date>
+  <millis>1670328444115</millis>
+  <nanos>811700</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь ввел 34,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:24.143791700Z</date>
+  <millis>1670328444143</millis>
+  <nanos>791700</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Результат вычитания -22,000000 из 34,000000 равено -56,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:31.243099900Z</date>
+  <millis>1670328451243</millis>
+  <nanos>99900</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию вычитание</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:32.852227300Z</date>
+  <millis>1670328452852</millis>
+  <nanos>227300</nanos>
+  <sequence>18</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию вычитание из предыдущего результата</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:39.684998600Z</date>
+  <millis>1670328459684</millis>
+  <nanos>998600</nanos>
+  <sequence>19</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию деление</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:42.774734400Z</date>
+  <millis>1670328462774</millis>
+  <nanos>734400</nanos>
+  <sequence>20</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию деления предыдущего результата</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:44.476789800Z</date>
+  <millis>1670328464476</millis>
+  <nanos>789800</nanos>
+  <sequence>21</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь ввел 45,000000</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:44.489783400Z</date>
+  <millis>1670328464489</millis>
+  <nanos>783400</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Результат умножения -56,000000 и 45,000000 равено -1,244444</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:49.294927400Z</date>
+  <millis>1670328469294</millis>
+  <nanos>927400</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию деление</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:50.729830600Z</date>
+  <millis>1670328470729</millis>
+  <nanos>830600</nanos>
+  <sequence>24</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Пользователь выбрал операцию деления предыдущего результата</message>
+</record>
+<record>
+  <date>2022-12-06T12:07:58.084813400Z</date>
+  <millis>1670328478084</millis>
+  <nanos>813400</nanos>
+  <sequence>25</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.calculator</class>
+  <method>calculatorDouble</method>
+  <thread>1</thread>
+  <message>Выход из программы</message>
 </record>
 </log>

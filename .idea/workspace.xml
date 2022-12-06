@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="Добавил стэк">
+    <list default="true" id="e10fe720-a90d-4e94-b4a3-7da8477bb289" name="Changes" comment="Добавил операцию со стэком во все математические операции">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calclogger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/calclogger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Программирование/JAVA_GEEK_BRAINS/Знакомство с java/java_homework/Seminar_2/Seminar_2_homework/Calculator"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Программирование/JAVA_GEEK_BRAINS/Знакомство с java/java_homework/Seminar_2/Seminar_2_homework/Calculator&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.calculator">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670248135060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил операцию со стэком во все математические операции">
+      <created>1670254607213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670254607214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +155,7 @@
     <MESSAGE value="Enqueue and dequeue" />
     <MESSAGE value="Добавил исходный код калькулятора" />
     <MESSAGE value="Добавил стэк" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил стэк" />
+    <MESSAGE value="Добавил операцию со стэком во все математические операции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил операцию со стэком во все математические операции" />
   </component>
 </project>
